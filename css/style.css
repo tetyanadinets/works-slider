@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600");
+body {
+  font-family: 'Poppins', sans-serif; }
+
+.ba-wrap {
+  height: 100vh;
+  background: url("../img/Background.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center; }
+  .ba-wrap p {
+    color: #303030;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19.17px;
+    padding-top: 60px; }
+  .ba-wrap h1 {
+    font-family: Poppins;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 100px; }
+  .ba-wrap .ba-slider {
+    padding: 0 136px;
+    position: relative;
+    margin-bottom: 120px; }
+    .ba-wrap .ba-slider .ba-slider__item {
+      display: inline-block;
+      outline: none;
+      position: relative;
+      margin: 0 20px; }
+      .ba-wrap .ba-slider .ba-slider__item .ba-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        pointer-events: none;
+        z-index: 1;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+        transition: all linear .3s;
+        background-color: rgba(27, 241, 173, 0.8); }
+        .ba-wrap .ba-slider .ba-slider__item .ba-overlay__article {
+          color: #ffffff;
+          font-size: 28px;
+          font-weight: 600;
+          width: 300px;
+          text-transform: uppercase;
+          line-height: 24px;
+          text-align: left;
+          line-height: 28px;
+          padding: 170px 0 0 30px;
+          margin: 0; }
+        .ba-wrap .ba-slider .ba-slider__item .ba-overlay__author {
+          color: #ffffff;
+          font-size: 12px;
+          font-weight: 400;
+          padding: 0 0 0 30px;
+          text-align: left; }
+      .ba-wrap .ba-slider .ba-slider__item:hover .ba-overlay {
+        opacity: 1; }
+
+.slick-prev, .slick-next {
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+  transition: all linear .3s; }
+  .slick-prev:before, .slick-next:before {
+    display: none; }
+
+.slick-prev {
+  background: url("../img/prew.png");
+  left: 25px; }
+  .slick-prev:hover {
+    background: url("../img/prew.png");
+    left: 20px; }
+
+.slick-next {
+  background: url("../img/next.png");
+  right: 25px; }
+  .slick-next:hover {
+    background: url("../img/next.png");
+    right: 20px; }
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1920px; }
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
